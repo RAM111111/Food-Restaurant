@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Restaurant</title>
+
+    <!-- font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <!-- lightgallery-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" integrity="sha512-kwJUhJJaTDzGp6VTPBbMQWBFUof6+pv0SM3s8fo+E6XnPmVmtfwENK0vHYup3tsYnqHgRDoBDTJWoq7rnQw2+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- swiper -->
+     <!-- swiper-->
+
+     <link
+   rel="stylesheet"
+   href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+ />
+    <!-- Custom css Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header_section_start -->
+    <section class="header">
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#food">food</a>
+            <a href="#gallery">gallery</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+
+    </section>
+    <!-- Home_section_start -->
+    <section class="home" id="home">
+<div class="swiper home-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) ;">
+            <div class="content">
+                <span>outStanding Food</span>
+                <h3>delicious Cooking</h3>
+                <a href="#" class="btn">get started</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) ;">
+            <div class="content">
+                <span>outStanding Food</span>
+                <h3>morning moment</h3>
+                <a href="#" class="btn">get started</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) ;">
+            <div class="content">
+                <span>outStanding Food</span>
+                <h3>authintec kitchin </h3>
+                <a href="#" class="btn">get started</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+    </section>
+    <!-- Home_section_start -->
+    <section class="about" id="about">
+    <div class="image">
+    <img src="images/about-img.png" alt="">
+    </div>
+    <div class="content">
+    <h3 class="title">welcom to our resturent</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolorem possimus!</p>
+    <a href="#" class="btn">read more</a>
+    <div class="icon-container">
+        <div class="icons">
+            <img src="images/about-icon-1.png" alt="">
+            <h3>quality food</h3>
+        </div>
+        <div class="icons">
+            <img src="images/about-icon-2.png" alt="">
+            <h3>food & drink</h3>
+        </div>
+        <div class="icons">
+            <img src="images/about-icon-3.png" alt="">
+            <h3>expert cheive</h3>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!-- Food_section_start -->
+    <section class="food" id="food">
+        <div class="heading">
+            <span>popular dishes</span>
+            <h3>our delicious food</h3>
+        </div>
+        <div class="swiper food-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" data-name="food-1">
+                    <img src="images/food-img-1.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99$</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-2">
+                    <img src="images/food-img-2.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99$</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="images/food-img-3.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99$</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="images/food-img-4.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99$</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-5">
+                    <img src="images/food-img-5.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99$</div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section> 
+    <!-- Food_preview_container_start -->
+    <section class="food-preview-container">
+        <div id="close-preview" class="fas fa-times"></div>
+        <div class="food-preview " data-target="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>delecious food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ducimus?</p>
+            <div class="price">$23.99</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>delecious food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ducimus?</p>
+            <div class="price">$23.99</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>delecious food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ducimus?</p>
+            <div class="price">$23.99</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <h3>delecious food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ducimus?</p>
+            <div class="price">$23.99</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <h3>delecious food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ducimus?</p>
+            <div class="price">$23.99</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+
+    </section>
+    <!-- Gallary_start -->
+    <section class="gallary" id="gallery">
+        <div class="heading">
+            <span>Our Gallary</span>
+            <h3>Our untold srory</h3>
+        </div>
+        <div class="gallary-container">
+            <a href="images/food-galler-img-1.jpg" class="box">
+                <img src="images/food-galler-img-1.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-2.jpg" class="box">
+                <img src="images/food-galler-img-2.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-3.jpg" class="box">
+                <img src="images/food-galler-img-3.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-4.jpg" class="box">
+                <img src="images/food-galler-img-4.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+    </section>
+    <!-- Gallary_start -->
+    <section class="menu" id="menu">
+        <div class="heading">
+        <span>our menu</span>
+        <h3>our papular dishes</h3>
+        </div>
+        <div class="swiper menu-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <h3 class="title">breakfast</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title">lunch </h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title" >dinner </h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious dinner</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious dinner</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious dinner</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious dinner</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious dinner</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title" >drink </h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>cold drink</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cold drink</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cold drink</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cold drink</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cold drink</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cold drink</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title" >dessert </h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>sweet dessert</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>sweet dessert</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>sweet dessert</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>sweet dessert</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, officiis.</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Order -->
+    <section class="order" id="order">
+        <div class="heading">
+            <span>order now</span>
+            <h3>fast home delivery</h3>
+        </div>
+        <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="input-box">
+                        <span>full name</span>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="input-box">
+                        <span>food name</span>
+                        <input type="text" placeholder="food you want">
+                    </div>
+                    <div class="input-box">
+                        <span>order details</span>
+                        <input type="text" placeholder="spesific with order">
+                    </div>
+                    <div class="input-box">
+                        <span>your address</span>
+                        <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                        </div>
+            </div>
+            <div class="box">
+                <div class="input-box">
+                    <span>How much</span>
+                    <input type="number" placeholder="enter your numb ">
+                </div>
+                <div class="input-box">
+                    <span>how many</span>
+                    <input type="number" placeholder="how many you want">
+                </div>
+                <div class="input-box">
+                    <span>when you want</span>
+                    <input type="datetime-local">
+                </div>
+                <div class="input-box">
+                    <span>our address</span>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927755.013859579!2d47.38164704427942!3d24.725403202210437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z2KfZhNix2YrYp9i2!5e0!3m2!1sar!2ssa!4v1643173245521!5m2!1sar!2ssa" allowfullscreen="" loading="lazy">
+                    </iframe>
+                  </div>
+                  </div>
+                  </div>
+                  <input type="submit" class="btn">
+        </form>
+    </section>
+    <!-- blogs -->
+    <section class="blog" id="blogs">
+        <div class="heading">
+            <span>our blog</span>
+            <h3>our latest post</h3>
+        </div>
+        <div class="swiper blog-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-1.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st,may 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog  title</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolor.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-2.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st,may 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog  title</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolor.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-3.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st,may 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog  title</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolor.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-4.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st,may 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog  title</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolor.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-5.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st,may 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog  title</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolor.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-6.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st,may 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog  title</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolor.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="icon-container">
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>opening hourse</h3>
+                <p>7:00 to 10:00</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone number</h3>
+                <p>+123-456-7890</p>
+                <p>+123-456-7890</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>ramia.aloufi@gmail.com</p>
+                <p>ramia.aoufi@gmail.com</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>address: </h3>
+                <p>saudi arabia - riyadh</p>
+            </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <div class="credit">created by <span>ramia aloufi </span>| all right reserved!</div>
+    </section>
+
+
+
+
+
+
+
+     <!--lightgallery  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js" integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <!--swiper  -->
+     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+     <!-- Custom js Link -->
+     <script src="script.js"></script>
+     <script>
+          lightGallery(document.querySelector('.gallary .gallary-container'));
+     </script>
+
+
+</body>
+</html>
